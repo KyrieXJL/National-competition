@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.smarttraffic.SlidDelete
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/layout17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:id="@+id/image17"
+                />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text_list_17"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:text="一般管理员"
+                    android:gravity="center"
+                    android:background="#ffff02"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:text="查看详情"
+                    android:id="@+id/btnlist17"
+                    android:textStyle="bold"
+                    android:textSize="26dp"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="100dp"
+                android:text="收藏"
+                android:id="@+id/collect"
+                android:background="#02cc35"
+                android:textColor="#ffff"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+</com.lenovo.smarttraffic.SlidDelete>

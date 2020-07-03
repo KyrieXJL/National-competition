@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#767171"
+    android:layout_margin="1dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:background="#029aff"
+        android:layout_margin="1dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/list_index"
+        android:layout_height="0dp" />
+    <LinearLayout
+        android:background="#fff"
+        android:layout_margin="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:src="@drawable/sh001"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:id="@+id/list_image"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:id="@+id/list_value"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:background="#fff"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/list_status"
+        />
+
+
+
+</LinearLayout>

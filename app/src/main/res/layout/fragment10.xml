@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment10">
+    <LinearLayout
+        android:background="#028678"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@mipmap/left_2"
+            android:id="@+id/image10"
+            android:layout_gravity="center_vertical"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="12"
+            android:text="交通资讯"
+            android:textColor="#fff"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:gravity="center"
+
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#028678"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <android.support.design.widget.TabLayout
+            android:layout_width="wrap_content"
+            app:tabIndicatorColor="#fff"
+            android:id="@+id/tb10"
+            app:tabTextColor="#fff"
+            app:tabTextAppearance="@style/TabLayout1"
+            android:layout_height="wrap_content"></android.support.design.widget.TabLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/image10_1"
+                app:srcCompat="@drawable/ic_add_black_24dp_10"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewpager10"
+        ></android.support.v4.view.ViewPager>
+
+
+</LinearLayout>
